@@ -37,7 +37,7 @@ const markers = [{
 }];
 const MapContainer = () =>
     <div style={{ width: '75vw', height: '75vh', margin: '0 auto', overflow: 'hidden' }}>
-
+    Map Below
     <Map center={center} zoom={15} style={{ height: '100%' }}>
         <MapLayers>
             <MapTileLayer urlTemplate={tileUrl} subdomains={tileSubdomains} attribution={attribution} />
